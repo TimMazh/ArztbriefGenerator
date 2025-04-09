@@ -6,7 +6,7 @@ class SSHConnection:
         self.client = None
         self.host = "sx-el-121920.ost.ch"
         self.user = "tim.mazhari"
-        self.key_path = "REMOVED"
+        self.key_path = "Iwadws222002891"
 
     def connect(self):
         self.client = paramiko.SSHClient()
